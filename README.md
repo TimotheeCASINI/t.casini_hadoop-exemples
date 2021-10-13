@@ -20,4 +20,5 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
   * `cp -R hadoop-examples-mapreduce ./MyGitHub`
 
 ![Copie du dossier vers notre git](img3.jpg)
+
 ![Vérification de la copie](img4.jpg)
