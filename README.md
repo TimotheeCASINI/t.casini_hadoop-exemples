@@ -13,3 +13,4 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
 
 - On clone maintenant notre **dépôt GitHub personnel** dans le dossier *MyGitHub* :
   * `git clone https://github.com/Gratouille123/t.casini_hadoop-exemples.git ./MyGitHub`
+![Dépôt personnel](img2.jpg)
