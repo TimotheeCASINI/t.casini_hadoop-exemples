@@ -6,18 +6,21 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
 - On commence par créer un respository (public) et on le nomme : 
   * `t.casini_hadoop-exemples`
 
+<br>
 
 - Ensuite on clone le dépôt contenant le dossier *hadoop-exemples-mapreduce* dans l'environnement **Hadoop** :
   * `git clone https://github.com/makayel/hadoop-examples-mapreduce.git`
 
 ![Dépôt hadoop-exemples-mapreduce](imgs/img1.jpg)
 
+<br>
 
 - On clone maintenant notre **dépôt GitHub personnel** dans le dossier *MyGitHub* :
   * `git clone https://github.com/Gratouille123/t.casini_hadoop-exemples.git ./MyGitHub`
 
 ![Dépôt personnel](imgs/img2.jpg)
 
+<br>
 
 - On copie le dosssier *hadoop-exemples-mapreduce* dans le dosssier *MyGitHub* afin de pouvoir le transferer au dépôt **GitHub** :
   * `cp -R hadoop-examples-mapreduce ./MyGitHub`
@@ -25,6 +28,7 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
 ![Copie du dossier vers notre git](imgs/img3.jpg)
 ![Vérification de la copie](imgs/img4.jpg)
 
+<br>
 
 - On ajoute le dossier *hadoop-exemples-mapreduce* au dépôt **GitHub** puis on valide l'ajout :
   * `git add -f hadoop-examples-mapreduce/\*`
@@ -32,6 +36,7 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
 
 ![Ajout du dossier dand le dépôt](imgs/img5.jpg)
 
+<br>
 
 - On génère un **token d'accès** depuis le **GitHub** afin de pouvoir **push** les donner vers le dépôt personnel :
   * `TOKEN = Ghp_wSKqEiOAfwMres8lmiRk40qiASb8ID3hl4F2`
@@ -40,6 +45,7 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
 ![Insertion du dossier dans le Git](imgs/img6.jpg)
 
 
+<br>
 
 Ainsi, le dossier *hadoop-exemples-mapreduce* a été chargé dans le dépôt personnel **GitHub** nommé : `t.casini_hadoop-exemples`
 
