@@ -47,6 +47,15 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
 
 <br>
 
+ATTENTION À NE PAS OUBLIER DE CONFIGURER LES INFORMATIONS UTILISATEURS !
+
+  * `git config --global push.default matching`
+  * `git config --global user.name Gratouille123`
+  * `git config --global user.email timothee.casini@efrei.net`
+  * `git config -l`
+
+<br>
+
 Ainsi, le dossier *hadoop-exemples-mapreduce* a été chargé dans le dépôt personnel **GitHub** nommé : `t.casini_hadoop-exemples`
 
 Il ne reste plus qu'a cloner le dépôt depuis un terminal (dans le référentiel souhaité) : 
