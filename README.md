@@ -18,7 +18,3 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
 
 - On copie le dosssier *hadoop-exemples-mapreduce* dans le dosssier *MyGitHub* afin de pouvoir le transferer au dépôt **GitHub** :
   * `cp -R hadoop-examples-mapreduce ./MyGitHub`
-
-![Copie du dossier vers notre git](img3.jpg)
-
-![Vérification de la copie](img4.jpg)
