@@ -22,13 +22,19 @@ TP4 - Yarn&MapReduce 2 - Git Hub Respository
 ![Copie du dossier vers notre git](img3.jpg)
 ![Vérification de la copie](img4.jpg)
 
-- On ajoute le dossier *hadoop-exemples-mapreduce* au dépôt **GitHub** :
+- On ajoute le dossier *hadoop-exemples-mapreduce* au dépôt **GitHub** puis on valide l'ajout :
   * `git add -f hadoop-examples-mapreduce/\*`
+  * `git commit -m "Insertion du dossier hadoop-exemples-mapreduce"`
 
 ![Ajout du dossier dand le dépôt](img5.jpg)
 
 
-- On génère un **token d'accès** depuis le **GitHub** afin de pouvoir pousser les donner vers le dépôt personnel :
+- On génère un **token d'accès** depuis le **GitHub** afin de pouvoir **push** les donner vers le dépôt personnel :
   * `TOKEN = Ghp_wSKqEiOAfwMres8lmiRk40qiASb8ID3hl4F2`
-  * 
+  * `git push` => Password for 'https://Gratouille123@github.com': [PUT TOKEN HERE]
 
+![Insertion du dossier dans le Git](img6.jpg)
+
+Ainsi, le dossier *hadoop-exemples-mapreduce* a été chargé dans le dépôt personnel **GitHub** nommé : `t.casini_hadoop-exemples`
+
+Il ne reste plus qu'a cloner le dépôt depuis un terminal (dans le référentiel souhaité) : `git clone https://github.com/Gratouille123/t.casini_hadoop-exemples.git`
